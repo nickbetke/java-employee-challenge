@@ -4,6 +4,12 @@ plugins {
 
 dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa' // Your other dependencies
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'com.h2database:h2:2.1.214'
+
+    // Add Lombok dependency
+    implementation 'org.projectlombok:lombok:1.18.24'
 }
 
 springBoot {
